@@ -1,0 +1,16 @@
+body {
+  background-size: cover;
+  background-image: url(coffee.jpg);
+  background-repeat: no-repeat;
+}
+.hero
+{
+    font-family: 'Revalia',cursive;
+    text-align: center;
+    margin-top: 20%;
+    color: #inherit;
+}
+.ima{
+  height: 100px;
+  width: auto;
+}

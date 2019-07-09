@@ -1,0 +1,19 @@
+body
+{
+  background-repeat: no-repeat;
+  background-image: url(rolex-mid.jpg);
+  background-size: cover;
+
+}
+h1{
+  color: #fff;
+  margin-top: 20%;
+  font-size: 70px;
+  letter-spacing:inherit;
+  text-align: center;
+  font-family: 'Revalia',cursive;
+}
+.ima{
+  height: 100px;
+  width: auto;
+}
