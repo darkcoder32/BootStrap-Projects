@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+  <style>
+    .green{
+      background-color: green;
+      height :80vh;
+    }
+    /* xs */
+    @media (max-width : 575px ){
+      .green{
+        background-color: red ;
+        height :80vh;
+      }
+    }
+    /* sm */
+    @media (min-width: 576px) and (max-width:767px){
+      .green{
+        background-color: blue ;
+        height :80vh;
+      }
+    }
+    /* md */
+    @media (min-width: 768px) and (max-width:991px){
+      .green{
+        background-color: black ;
+        height :80vh;
+      }
+    }
+    /* lg */
+    @media (min-width: 992px) and (max-width:1199px){
+      .green{
+        background-color: yellow ;
+        height :80vh;
+      }
+    }
+    /* xl */
+    @media (min-width: 1200px){
+      .green{
+        background-color: #c1c1c1 ;
+        height :80vh;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Lorem ipsum dolor sit amet.</h1>
+<div class="container-fluid green">aaa</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

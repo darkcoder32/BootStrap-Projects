@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+  <style>
+    .con{
+      background-color: grey;
+      height: 100vh;
+    }
+    .blue{
+      background-color: #0A79DF;
+    }
+    .green{
+      background-color: #43BE31;
+    }
+    .rowHeight{
+      background-color: #F9DDA4;
+      height : 100px;
+    }
+    </style>
+</head>
+<body>
+<!--
+order-last
+order-first
+ -->
+ <!--
+offset-md-2
+ -->
+<div class="container con">
+  <div class="row"> <!-- flex ordering technique is applied only for cloumn -->
+    <div class="col-md-9 push-md-3 blue">Superman</div>
+    <div class="col-md-3 pull-md-9 green">Batman</div>
+    <!-- <div class="col blue">Spiderman</div> -->
+  </div>
+</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/js/tether.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
