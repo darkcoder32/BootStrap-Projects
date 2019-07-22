@@ -1,0 +1,25 @@
+body{
+  background: url(images/back.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+.login{
+  margin-top: 5px;
+}
+#img_logo{
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 auto;
+}
+.modal-header{
+  background-color: #EAF0F1;
+}
+#checkbox{
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.modal-text{
+  margin-bottom: 10px;
+}
+.login_signup{
+  background-color: #EAF0F1;
+}
